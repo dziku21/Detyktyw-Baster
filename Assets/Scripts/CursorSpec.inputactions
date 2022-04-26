@@ -1,0 +1,74 @@
+{
+    "name": "CursorSpec",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "a9099316-d1d9-4201-978c-7eab6966187a",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "02a80bdb-22a2-438f-b2e1-176a2c579dee",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Position",
+                    "type": "PassThrough",
+                    "id": "4896923a-f6e2-47c1-a496-8dd09f1a847b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ClickToMove",
+                    "type": "Value",
+                    "id": "c1229cc8-6521-47d3-b334-969e69bca06c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3da5e7ae-17f8-449f-919b-04b0129c8ac6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0842a627-6171-453f-8913-c74536b1b6e5",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92bc5bd6-d677-4336-964e-874a569b1dbd",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickToMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
